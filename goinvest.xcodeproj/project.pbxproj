@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39AC413C1F4C67AA00DA808E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AC413B1F4C67AA00DA808E /* AppDelegate.swift */; };
+		39AC413E1F4C67AA00DA808E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AC413D1F4C67AA00DA808E /* ViewController.swift */; };
+		39AC41411F4C67AA00DA808E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39AC413F1F4C67AA00DA808E /* Main.storyboard */; };
+		39AC41441F4C67AA00DA808E /* goinvest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39AC41421F4C67AA00DA808E /* goinvest.xcdatamodeld */; };
+		39AC41461F4C67AA00DA808E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39AC41451F4C67AA00DA808E /* Assets.xcassets */; };
+		39AC41491F4C67AA00DA808E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39AC41471F4C67AA00DA808E /* LaunchScreen.storyboard */; };
+		39AC41541F4C67AA00DA808E /* goinvestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AC41531F4C67AA00DA808E /* goinvestTests.swift */; };
+		39AC415F1F4C67AA00DA808E /* goinvestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AC415E1F4C67AA00DA808E /* goinvestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39AC41501F4C67AA00DA808E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39AC41301F4C67AA00DA808E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39AC41371F4C67AA00DA808E;
+			remoteInfo = goinvest;
+		};
+		39AC415B1F4C67AA00DA808E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39AC41301F4C67AA00DA808E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39AC41371F4C67AA00DA808E;
+			remoteInfo = goinvest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39AC41381F4C67AA00DA808E /* goinvest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goinvest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AC413B1F4C67AA00DA808E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39AC413D1F4C67AA00DA808E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39AC41401F4C67AA00DA808E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39AC41431F4C67AA00DA808E /* goinvest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goinvest.xcdatamodel; sourceTree = "<group>"; };
+		39AC41451F4C67AA00DA808E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39AC41481F4C67AA00DA808E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39AC414A1F4C67AA00DA808E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39AC414F1F4C67AA00DA808E /* goinvestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goinvestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AC41531F4C67AA00DA808E /* goinvestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goinvestTests.swift; sourceTree = "<group>"; };
+		39AC41551F4C67AA00DA808E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39AC415A1F4C67AA00DA808E /* goinvestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goinvestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AC415E1F4C67AA00DA808E /* goinvestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goinvestUITests.swift; sourceTree = "<group>"; };
+		39AC41601F4C67AA00DA808E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39AC41351F4C67AA00DA808E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AC414C1F4C67AA00DA808E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AC41571F4C67AA00DA808E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39AC412F1F4C67AA00DA808E = {
+			isa = PBXGroup;
+			children = (
+				39AC413A1F4C67AA00DA808E /* goinvest */,
+				39AC41521F4C67AA00DA808E /* goinvestTests */,
+				39AC415D1F4C67AA00DA808E /* goinvestUITests */,
+				39AC41391F4C67AA00DA808E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39AC41391F4C67AA00DA808E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39AC41381F4C67AA00DA808E /* goinvest.app */,
+				39AC414F1F4C67AA00DA808E /* goinvestTests.xctest */,
+				39AC415A1F4C67AA00DA808E /* goinvestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39AC413A1F4C67AA00DA808E /* goinvest */ = {
+			isa = PBXGroup;
+			children = (
+				39AC413B1F4C67AA00DA808E /* AppDelegate.swift */,
+				39AC413D1F4C67AA00DA808E /* ViewController.swift */,
+				39AC413F1F4C67AA00DA808E /* Main.storyboard */,
+				39AC41451F4C67AA00DA808E /* Assets.xcassets */,
+				39AC41471F4C67AA00DA808E /* LaunchScreen.storyboard */,
+				39AC414A1F4C67AA00DA808E /* Info.plist */,
+				39AC41421F4C67AA00DA808E /* goinvest.xcdatamodeld */,
+			);
+			path = goinvest;
+			sourceTree = "<group>";
+		};
+		39AC41521F4C67AA00DA808E /* goinvestTests */ = {
+			isa = PBXGroup;
+			children = (
+				39AC41531F4C67AA00DA808E /* goinvestTests.swift */,
+				39AC41551F4C67AA00DA808E /* Info.plist */,
+			);
+			path = goinvestTests;
+			sourceTree = "<group>";
+		};
+		39AC415D1F4C67AA00DA808E /* goinvestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39AC415E1F4C67AA00DA808E /* goinvestUITests.swift */,
+				39AC41601F4C67AA00DA808E /* Info.plist */,
+			);
+			path = goinvestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39AC41371F4C67AA00DA808E /* goinvest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AC41631F4C67AA00DA808E /* Build configuration list for PBXNativeTarget "goinvest" */;
+			buildPhases = (
+				39AC41341F4C67AA00DA808E /* Sources */,
+				39AC41351F4C67AA00DA808E /* Frameworks */,
+				39AC41361F4C67AA00DA808E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = goinvest;
+			productName = goinvest;
+			productReference = 39AC41381F4C67AA00DA808E /* goinvest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39AC414E1F4C67AA00DA808E /* goinvestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AC41661F4C67AA00DA808E /* Build configuration list for PBXNativeTarget "goinvestTests" */;
+			buildPhases = (
+				39AC414B1F4C67AA00DA808E /* Sources */,
+				39AC414C1F4C67AA00DA808E /* Frameworks */,
+				39AC414D1F4C67AA00DA808E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39AC41511F4C67AA00DA808E /* PBXTargetDependency */,
+			);
+			name = goinvestTests;
+			productName = goinvestTests;
+			productReference = 39AC414F1F4C67AA00DA808E /* goinvestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39AC41591F4C67AA00DA808E /* goinvestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AC41691F4C67AA00DA808E /* Build configuration list for PBXNativeTarget "goinvestUITests" */;
+			buildPhases = (
+				39AC41561F4C67AA00DA808E /* Sources */,
+				39AC41571F4C67AA00DA808E /* Frameworks */,
+				39AC41581F4C67AA00DA808E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39AC415C1F4C67AA00DA808E /* PBXTargetDependency */,
+			);
+			name = goinvestUITests;
+			productName = goinvestUITests;
+			productReference = 39AC415A1F4C67AA00DA808E /* goinvestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39AC41301F4C67AA00DA808E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jimzland;
+				TargetAttributes = {
+					39AC41371F4C67AA00DA808E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8QG3EZYPHD;
+						ProvisioningStyle = Automatic;
+					};
+					39AC414E1F4C67AA00DA808E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8QG3EZYPHD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39AC41371F4C67AA00DA808E;
+					};
+					39AC41591F4C67AA00DA808E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8QG3EZYPHD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39AC41371F4C67AA00DA808E;
+					};
+				};
+			};
+			buildConfigurationList = 39AC41331F4C67AA00DA808E /* Build configuration list for PBXProject "goinvest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39AC412F1F4C67AA00DA808E;
+			productRefGroup = 39AC41391F4C67AA00DA808E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39AC41371F4C67AA00DA808E /* goinvest */,
+				39AC414E1F4C67AA00DA808E /* goinvestTests */,
+				39AC41591F4C67AA00DA808E /* goinvestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39AC41361F4C67AA00DA808E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AC41491F4C67AA00DA808E /* LaunchScreen.storyboard in Resources */,
+				39AC41461F4C67AA00DA808E /* Assets.xcassets in Resources */,
+				39AC41411F4C67AA00DA808E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AC414D1F4C67AA00DA808E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AC41581F4C67AA00DA808E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39AC41341F4C67AA00DA808E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AC413E1F4C67AA00DA808E /* ViewController.swift in Sources */,
+				39AC41441F4C67AA00DA808E /* goinvest.xcdatamodeld in Sources */,
+				39AC413C1F4C67AA00DA808E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AC414B1F4C67AA00DA808E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AC41541F4C67AA00DA808E /* goinvestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AC41561F4C67AA00DA808E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AC415F1F4C67AA00DA808E /* goinvestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39AC41511F4C67AA00DA808E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39AC41371F4C67AA00DA808E /* goinvest */;
+			targetProxy = 39AC41501F4C67AA00DA808E /* PBXContainerItemProxy */;
+		};
+		39AC415C1F4C67AA00DA808E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39AC41371F4C67AA00DA808E /* goinvest */;
+			targetProxy = 39AC415B1F4C67AA00DA808E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39AC413F1F4C67AA00DA808E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39AC41401F4C67AA00DA808E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39AC41471F4C67AA00DA808E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39AC41481F4C67AA00DA808E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39AC41611F4C67AA00DA808E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39AC41621F4C67AA00DA808E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39AC41641F4C67AA00DA808E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8QG3EZYPHD;
+				INFOPLIST_FILE = goinvest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimzland.goinvest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		39AC41651F4C67AA00DA808E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8QG3EZYPHD;
+				INFOPLIST_FILE = goinvest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimzland.goinvest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		39AC41671F4C67AA00DA808E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8QG3EZYPHD;
+				INFOPLIST_FILE = goinvestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimzland.goinvestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goinvest.app/goinvest";
+			};
+			name = Debug;
+		};
+		39AC41681F4C67AA00DA808E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8QG3EZYPHD;
+				INFOPLIST_FILE = goinvestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimzland.goinvestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goinvest.app/goinvest";
+			};
+			name = Release;
+		};
+		39AC416A1F4C67AA00DA808E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8QG3EZYPHD;
+				INFOPLIST_FILE = goinvestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimzland.goinvestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = goinvest;
+			};
+			name = Debug;
+		};
+		39AC416B1F4C67AA00DA808E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8QG3EZYPHD;
+				INFOPLIST_FILE = goinvestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimzland.goinvestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = goinvest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39AC41331F4C67AA00DA808E /* Build configuration list for PBXProject "goinvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AC41611F4C67AA00DA808E /* Debug */,
+				39AC41621F4C67AA00DA808E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AC41631F4C67AA00DA808E /* Build configuration list for PBXNativeTarget "goinvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AC41641F4C67AA00DA808E /* Debug */,
+				39AC41651F4C67AA00DA808E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39AC41661F4C67AA00DA808E /* Build configuration list for PBXNativeTarget "goinvestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AC41671F4C67AA00DA808E /* Debug */,
+				39AC41681F4C67AA00DA808E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39AC41691F4C67AA00DA808E /* Build configuration list for PBXNativeTarget "goinvestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AC416A1F4C67AA00DA808E /* Debug */,
+				39AC416B1F4C67AA00DA808E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39AC41421F4C67AA00DA808E /* goinvest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39AC41431F4C67AA00DA808E /* goinvest.xcdatamodel */,
+			);
+			currentVersion = 39AC41431F4C67AA00DA808E /* goinvest.xcdatamodel */;
+			path = goinvest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39AC41301F4C67AA00DA808E /* Project object */;
+}
